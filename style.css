@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #adadad;
+}
+.container {
+  width: 800px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+textarea {
+  width: 100%;
+  height: 400px;
+  resize: none;
+  border: none;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 15px;
+  border-radius: 3px;
+  outline: none;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+p {
+  font-weight: bold;
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: 40px;
+}
